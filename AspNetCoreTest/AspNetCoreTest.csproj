@@ -4,10 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b7c04d39-40b4-410a-a22f-7c0be39900cb</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.10.1" />
+    <PackageReference Include="Microsoft.Azure.AppConfiguration.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Azure" Version="1.7.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>
